@@ -1,8 +1,0 @@
-.pieChartTotal{
-    font-feature-settings: 'tnum' on, 'lnum' on;
-    color: #000;
-    font-weight: bolder;
-    position: relative;
-    transform: translate(0px, -56px);
-    /* width: 450px; */
-}
