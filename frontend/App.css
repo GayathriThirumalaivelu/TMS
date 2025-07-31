@@ -1,0 +1,113 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+.avatar-total-container{
+  background-color: var(--themeColor);
+  height: 100vh;
+  padding: 2.5vh 0 0;
+  font-family: var(--font-family);
+}
+
+#avatar-container{
+  border-radius: 17px;
+  /* margin-top: 73px; */
+  padding-top: 84px;
+  width: 1132px;
+  height: 577px;
+  background-color: white;
+  box-shadow: 1px 1px 18px #dcd9e0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#avatar-container h1{
+  text-align: center;
+  font-size: 5em;
+}
+
+#avatar .fa-solid{
+  font-size: 100px;
+  color:#491D90;
+  width:200px;
+  padding-left:50px;
+  padding-top: 40px;;
+  height:200px;
+  background-color: #fffdfd;
+  border-radius: 100%;
+  box-shadow: 1px 1px 4px 2px rgb(31, 31, 166);
+}
+#avatar #user{
+  padding-left:55px;
+  /* margin-left:70px; */
+  
+}
+#avatar{
+  display: flex;
+  justify-content: space-around;
+  width:600px;
+  margin-top:70px;
+  margin-left: auto;
+  margin-right: auto;;
+}
+#avatar .text{
+  text-align: center;
+   margin-top: 20px;
+    /* margin-left: 60px;  */
+   color: #491D90;
+   text-shadow: 1px 1.5px rgb(146, 146, 225);
+   font-size: 35px;
+   font-weight: 900;
+  
+
+}
+
+#adm:hover #admi{
+  background-color:#491D90;
+  color: white;
+  transition-duration: 1s;
+  transition-timing-function: linear;
+  box-shadow: 1px 1px 4px 2px #491D90;
+}
+
+#emp:hover #user{
+  background-color: #491D90;
+  color: white;
+  transition-duration: 1s;
+  box-shadow: 1px 1px 4px 2px #491D90;
+}
