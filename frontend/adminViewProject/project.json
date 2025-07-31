@@ -1,0 +1,32 @@
+[
+    {
+        "projectname": "test project 1",
+  "description": "example test backend",
+  "assignedDate": "2024-03-10",
+  "deadline": "2024-03-20",
+  "employeesToAdd": [
+    "emp 1des",
+    "emp 2test"
+  ],
+  "tasks": [
+    "task be 1",
+    "task be 2"
+  ],
+  "status": "started",
+  "manager": "Emp1",
+  "teamLeader": "emp1",
+  "sector": "Govt",
+  "budget": "300000$",
+  "applicationType": "website",
+  "technologies": [
+    "MERN",
+    "ui/ux"
+  ],
+  "softwareUsing": [
+    "vscode",
+    "mongoDb",
+    "postman"
+  ],
+  "__v": 0
+    }
+]

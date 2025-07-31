@@ -1,0 +1,227 @@
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;	
+	/* font-family: Raleway, sans-serif; */
+}
+
+/* .totalOfTotal {
+	background-image: linear-gradient(to top left,rgb(163, 7, 195),rgb(43, 43, 129),rgb(163, 7, 195));	
+    background-attachment: fixed;	
+} */
+
+.adminTotal #total{
+	font-family: var(--font-family);
+}
+
+#total h1, #total h1 span{
+    margin-top: 36px;
+    /* text-align: center; */
+    color: #1a183b;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 26px;
+    color: #292977;
+    visibility: visible;
+    animation-name: hover;
+    animation-duration: 1s;
+}
+
+#total h1 span{
+	color: white;
+	margin-left: 0px;
+}
+
+.container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	/* min-height:40em; */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:3vh;
+	/* margin-bottom: auto; */
+    
+}
+
+.screen {	
+    margin-top:0.4vh;	
+	background: linear-gradient(90deg, #6558c9, #7C78B8);		
+	position: relative;	
+	height: 500px;
+	width: 360px;	
+	box-shadow: 0px 0px 24px #5C5696;
+    left:-950px;
+    -webkit-animation: slide 1.5s forwards;
+    -webkit-animation-delay: 0.5s;
+    animation: slide 1.5s forwards;
+    animation-delay: 0s;
+	
+}
+@-webkit-keyframes slide {
+    0%{transform: rotate(0deg);}
+    100% { left: 0px;transform: rotate(360deg);}
+}
+
+@keyframes slide {
+    0%{transform: rotate(0deg);}
+    100% { left: 0px;transform: rotate(360deg);}
+}
+.screen__content {
+	z-index: 1;
+	position: relative;	
+	height: 100%;
+    
+}
+
+.screen__content i{
+    padding-left:5px;
+    
+}
+.screen__background {		
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 0;
+	-webkit-clip-path: inset(0 0 0 0);
+	clip-path: inset(0 0 0 0);	
+}
+
+.screen__background__shape {
+	transform: rotate(45deg);
+	position: absolute;
+}
+
+.screen__background__shape1 {
+	height: 439px;
+	width: 520px;
+	background: #f9f7f7;	
+	top: -50px;
+	right: 130px;	
+	border-radius: 0 72px 0 0;
+}
+.screen__background__shape2 {
+	height: 220px;
+	width: 220px;
+	background: #312872;	
+	top: -172px;
+	right: 0;	
+	border-radius: 32px;
+}
+.screen__background__shape3 {
+	height: 560px;
+	width: 190px;
+	background: linear-gradient(270deg, #312872, #6A679E);
+	top: -24px;
+	right: 0;	
+	border-radius: 32px;
+}
+
+.screen__background__shape4 {
+	height: 50px;
+	width: 200px;
+	background: #7E7BB9;	
+	top: 420px;
+	right: 50px;	
+	border-radius: 60px;
+}
+
+.login {
+	width: 326px;
+    padding: 20px;
+    padding-top: 35px;
+    
+}
+
+.login__field {
+	padding: 25px 0px 0px 0px;
+    position: relative;
+
+}
+
+.login__icon {
+	position: absolute;
+	top: 33px;
+	color: #5f5b98;
+}
+.button__icon{
+    color:white;
+}
+
+.login__input {
+
+	border: none;
+	border-bottom: 2px solid #D1D1D4;
+	background: none;
+	padding: 10px 0px;
+	padding-left: 24px;
+	font-weight: 700;
+	width: 71%;
+	transition: .2s;
+    border-radius: 9px;
+}
+/* .login__input::placeholder{
+	color: #000;
+} */
+
+.login__input:active,
+.login__input:focus,
+.login__input:hover {
+	outline: none;
+	border-bottom-color: #6A679E;
+}
+
+.login__submit {
+	background: #4C489D;
+	font-family: var(--font-family);
+    font-size: 13px;
+    margin-top: 19px;
+    padding: 6px 49px;
+    border-radius: 10px;
+    border: 1px solid #D4D3E8;
+    text-transform: uppercase;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    width: 70%;
+    color: white;
+    box-shadow: 0px 2px 2px #5C5696;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.login__submit:active,
+.login__submit:focus,
+.login__submit:hover {
+	border-color: #6A679E;
+	outline: none;
+}
+
+.button__icon {
+	font-size: 24px;
+	margin-left: auto;
+	color: #7875B5;
+}
+.social-login {	
+	 position: absolute;
+	height: 140px;
+	width: 160px;
+	text-align: center;
+	bottom: 0px;
+	right: 0px;
+	color: #fff;
+} 
+
+
+.social-login__icon {
+	padding: 20px 10px;
+	color: #fff;
+	text-decoration: none;	
+	text-shadow: 0px 0px 8px #7875B5;
+}
+
+.social-login__icon:hover {
+	transform: scale(1.5);	
+} 

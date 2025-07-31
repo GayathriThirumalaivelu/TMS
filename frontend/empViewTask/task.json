@@ -1,0 +1,22 @@
+[
+      {
+"taskname": "task be 2",
+  "projectname": "test project 1",
+  "description": "example task be 2",
+  "assignedDate": "10-04-2022",
+  "deadline": "10-07-2022",
+  "employeesToAdd": [
+    {
+      "firstname": "emp 4",
+      "lastname": "be",
+      "status": "assigned"
+    },
+    {
+      "firstname": "emp 2",
+      "lastname": "test",
+      "status": "assigned"
+    }
+  ],
+  "status": "in process"
+}
+]
